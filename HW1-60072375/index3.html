@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>설문조사</title>
+	<link href="./stylesheet/index3.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<div id="menu">
+			<ul>
+				<li><a href="index.html" class="selected">홈</a></li>
+				<li><a href="index2.html">소개 보기</a></li>
+				<li><a href="index3.html">설문 조사 하기</a></li>
+				<li><a href="http://www.mju.ac.kr/mbs/mjukr/index.jsp" target="_blank">명지대 바로가기</a></li>
+			</ul>
+		</div>
+
+
+	<form action="#" method="post">
+		<table border="1">
+			<tr>
+				<th>성별</th>
+					<td>
+						<input type="radio" name="sex" value="m"/>남
+						<input type="radio" name="sex" value="f"/>여
+					</td>
+			</tr>
+			<tr>
+				<th>나이</th>
+				<td>
+					<input type="radio" name="age" value="10"/>10대
+					<input type="radio" name="age" value="20"/>20대
+					<input type="radio" name="age" value="30"/>30대
+					<input type="radio" name="age" value="40"/>40대 이상
+				</td>
+			</tr>
+			<tr>
+				<th>항목 1</th>
+				<td>정진선은 어떤 사람이 되고 싶어 하나요? <br/>
+					<input type="checkbox" name="who"/>긍정적인 사람
+					<input type="checkbox" name="who"/>부정적인 사람
+					<input type="checkbox" name="who"/>밝은 사람
+					<input type="checkbox" name="who"/>모르겠다
+				</td>
+			</tr>
+			<tr>
+				<th>항목 2</th>
+				<td>이 페이지들이 정진선을 아는것에 도움이 되었나요?
+				<br/>
+					<input type="radio" name="help" value="1"/>그렇다
+					<input type="radio" name="help" value="2"/>보통이다
+					<input type="radio" name="help" value="3"/>그렇지않다
+					<input type="radio" name="help" value="4"/>모르겠다
+				</td>
+			</tr>
+			<tr>
+				<th>항목 3</th>
+				<td>정진선이 관심을 두었으면 하는 분야는 무엇인가요?
+				<br/>
+					<input type="checkbox" name="feld"/>웹 프로그래밍
+					<input type="checkbox" name="feld"/>컴퓨터 네트워킹
+					<input type="checkbox" name="feld"/>프로그래밍언어
+					<input type="checkbox" name="feld"/>기타
+				</td>
+			</tr>
+			<tr>
+				<th>항목 4</th>
+				<td>정진선이 잘 하고 싶은 것들을 모두 이룰 수 있을것 같나요?
+				<br/>
+					<input type="radio" name="hope" value="one"/>그렇다
+					<input type="radio" name="hope" value="two"/>보통이다
+					<input type="radio" name="hope" value="three"/>그렇지않다
+					<input type="radio" name="hope" value="four"/>모르겠다
+				</td>
+			</tr>
+			<tr>
+				<th>항목 5</th>
+				<td>정진선에 대한 의견을 자유롭게 써주세요.<br/><br/>
+					<textarea cols="60" rows="15" name="free"></textarea><br/>&nbsp;<br/>&nbsp;
+				</td>
+			</tr>
+		</table>
+	<div id="sub">
+		<input type="submit"  value="전송" />
+	</div>
+		</form>
+
+</body>
+</html>

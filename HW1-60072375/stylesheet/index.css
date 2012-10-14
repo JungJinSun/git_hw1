@@ -1,0 +1,52 @@
+html{color:#000;
+		padding:30px 0;
+		font: "맑은 고딕", "Malgun Gothic","Gulim", Verdan,
+		
+}
+
+body{
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#wrap {width:1400px;
+			margin:0 auto;
+			background-color:#fff
+		}
+
+#middle {margin:100px 350px;}
+
+h1 {color: #235; text-align: center; line-height: 30px; }
+h2 {color: #158; text-align: center; }
+
+ul {
+	list-style:none;
+	margin-left: 20px;
+	padding-left:0px;
+}
+li {
+	background-image:url(../images/point.gif);
+	background-repeat: no-repeat;
+	background-position:5px 4px;
+	padding-left:20px;
+	font-weight: bold;
+}
+
+h4 {color: #158; text-align: left; margin-left: 20px; }
+h3 {text-align: right; margin-right: 60px;}
+
+a:visited, a:link {color:#c20A00; text-decoration: none;}
+a:hover, a:active {color: #fff;}
+
+
+#menu {width:1000px; height:30px;background-color:#235; padding-left: 250px;}
+#menu ul {margin:10px;padding:5px;}
+#menu ul li {float:left;}
+#menu ul li a{
+	display:inline-block;
+	width:150px;
+	text-align:center;
+	font: bold;
+}
+

@@ -1,0 +1,79 @@
+html{color:#000;
+		padding:30px 0;
+		font: "맑은 고딕", "Malgun Gothic","Gulim", Verdan,
+		
+}
+
+body{
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#wrap {width:0px;
+		margin-left: 380px; margin-top: 30px;
+}
+
+h1 {color: #210; text-align: center; line-height: 30px;}
+h2 {color: #210; text-indent: 100px; text-decoration: underline;}
+
+#p1 {margin-left: 100px; font-weight: bold;}
+
+table{
+	width: 60%;
+	border-collapse: collapse;
+	margin-left: 100px;
+}
+
+table, th, td {
+	border: 2px solid black;
+}
+
+td{
+	padding: 3px;
+	text-align: center; 
+	font-weight: bold;
+}
+
+th{
+	background-color: #389;
+}
+
+h3 {text-align: right; margin-right: 60px;}
+
+
+ul {
+	padding-left: 70px;
+	padding-bottom: 300px;
+}
+li {
+	float: left;
+	text-align: middle;
+}
+
+a:visited, a:link {color:#c20A00; text-decoration: none;}
+a:hover, a:active {color: #fff;}
+
+
+#menu {width:1000px; height:30px;background-color:#235; padding-left: 250px;}
+#menu ul {margin:10px;padding:5px;}
+#menu ul li {float:left;}
+#menu ul li a{
+	display:inline-block;
+	width:150px;
+	text-align:center;
+	font: bold;
+}
+
+ul {
+	list-style:none;
+	margin-left: 20px;
+	padding-left:0px;
+}
+li {
+	background-image:url(../images/point.gif);
+	background-repeat: no-repeat;
+	background-position:5px 4px;
+	padding-left:20px;
+	font-weight: bold;
+}
